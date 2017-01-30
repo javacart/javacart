@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+    <resource-ref>
+        <res-ref-name>con6</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <jndi-name>java:/con6</jndi-name>
+    </resource-ref>
+    <context-root>/</context-root>
+    <virtual-host>jbpms</virtual-host>
+</jboss-web>
